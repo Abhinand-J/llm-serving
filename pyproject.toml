@@ -1,0 +1,15 @@
+[project]
+name = "llm-serving"
+version = "0.1.0"
+description = "Local LLM serving system"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.142.2",
+    "numpy>=2.5.3",
+    "torch>=2.14.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
